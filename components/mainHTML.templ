@@ -1,0 +1,17 @@
+package components
+
+import "resume/main/models"
+
+templ MainHTML(name string, aboutMe models.AboutMe, mainContent models.MainContent) {
+<!DOCTYPE html>
+<html lang="en">
+@Header(name)
+<body>
+    <div class="container">
+        @Sidebar(aboutMe)
+        @MainContent(mainContent)
+    </div>
+</body>
+</html>
+
+}

@@ -1,0 +1,54 @@
+{
+    "education": [
+        {
+            "icon":"/static/sundevil.png",
+            "school":"Arizona State University",
+            "degree":"Bachelor of Computer Science"
+        }
+    ],
+    "jobs": [
+        {
+            "logo":"",
+            "name":"",
+            "position":"",
+            "startDate":"",
+            "endDate":"",
+            "responsibilities":[
+                "I did things here",
+                "Wow I did another thing!"
+            ]
+        }
+    ],
+    "projects" :[
+        {
+            "name":"Math Compiler",
+            "desc":"This project reads in input and then analyzes then compiles it to solve the math equations in the input.",
+            "repoLink":"https://github.com/colorfulparadox/Compiler",
+            "target":"_blank"
+        },
+        {
+            "name":"Project Name 2",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
+            "repoLink":"/project/project3",
+            "target":"_self"
+        },
+        {
+            "name":"Project Name 3",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
+            "repoLink":"/project/project3",
+            "target":"_self"
+        },
+        {
+            "name":"Project Name 4",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
+            "repoLink":"/project/project3",
+            "target":"_self"
+        },
+        {
+            "name":"Project Name 5",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
+            "repoLink":"/project/project3",
+            "target":"_self"
+        }
+    ]
+}

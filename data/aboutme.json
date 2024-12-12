@@ -1,0 +1,18 @@
+{
+    "icon":"https://avatars.githubusercontent.com/u/101310062?v=4",
+    "name":"Preston",
+    "job":"Software Engineer",
+    "about":"aaaaAlorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam. Vestibulum eget nunc euismod, varius sem id, porta sapien.",
+    "links":[
+        {
+            "link":"https://github.com/colorfulparadox",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg",
+            "image_alt":"GitHub-Profile"
+        },
+        {
+            "link":"https://www.linkedin.com/in/preston-w-14388a196/",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/7/7e/LinkedIn_PNG16.png",
+            "image_alt":"LinkedIn-Profile"
+        }
+    ]
+}

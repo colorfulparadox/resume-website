@@ -1,0 +1,25 @@
+package components
+
+import "resume/main/models"
+
+templ Sidebar(about models.AboutMe) {
+    <div class="sidebar">
+            <img class="profile" src={about.Icon} alt="imageProfile"></img>
+            <h1>{about.Name}</h1>
+            <h2>{about.Job}</h2>
+            <div class="about-section">
+                <h3 class="about-title">About Me</h3>
+                <p class="about">
+                    {about.About}
+                </p>
+            </div>
+            <div class="about">
+                <h3 class="about-title">Links</h3>
+                <div class="link-section-list">
+                for _, link := range about.Links  {
+                    @Link(link)
+                }
+                </div>
+            </div>
+        </div>
+}

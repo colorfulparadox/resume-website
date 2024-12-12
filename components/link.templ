@@ -1,0 +1,9 @@
+package components
+
+import "resume/main/models"
+
+templ Link(link models.Link) {
+    <a href={templ.URL(link.Link)} target="_blank" class="link-icon">
+        <img src={link.Image} alt={link.ImageAlt} class="link-section-icon">
+    </a>
+}

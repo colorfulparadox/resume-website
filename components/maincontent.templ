@@ -1,0 +1,43 @@
+package components
+
+import "resume/main/models"
+
+templ MainContent(content models.MainContent) {
+        <div class="main-content">
+
+            <div class="education">
+                <h2>Education</h2>
+                <div class="container">
+                    <img src="/static/sundevil.png" alt="ASU Logo">
+                    <div>
+                        <h3>Arizona State University</h3>
+                        <p>Bachelor of Computer Science</p>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Jobs -->
+             <div class="education">
+                <h2>Experience</h2>
+                <div class="container">
+                    <img src="/static/sundevil.png" alt="ASU Logo">
+                    <div>
+                        <h3>Company Name</h3>
+                        <p>Job Title Here</p>
+                        <ul>
+                            <li>I did this</li>
+                            <li>I did this and this</li>
+                            <li>Also this was important to!</li>
+                        </ul>
+                    </div>
+                </div> 
+             </div>
+
+            <div class="portfolio">
+                <h2>Portfolio</h2>
+                for _, project := range content.Projects  {
+                    @ProjectCard(project)
+                }
+            </div>
+        </div>
+}
