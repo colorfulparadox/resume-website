@@ -170,11 +170,11 @@ body {
     border-radius: 8px;
     box-shadow: 3px 8px 7px rgba(0, 0, 0, 0.6);
     transition: transform 0.2s, box-shadow 0.2s;
-    outline: solid 1.2px #3b3b3b;
+    outline: solid 1.85px #3b3b3b;
 }
 
 .project-card:hover {
-    outline: solid 2.5px #51acfc;
+    outline: solid 3.2px #51acfc;
     transform: translateY(-5px); 
     box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.75); 
     cursor: pointer;

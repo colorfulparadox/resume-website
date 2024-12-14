@@ -18,18 +18,6 @@
                 "Wow I did another thing!",
                 "Another epic thing which is also really long but here we go! THIS IS VERY LONG"
             ]
-        },
-        {
-            "logo":"/static/sundevil.png",
-            "name":"Company Name",
-            "position":"Software Job",
-            "startDate":"12-30-2009",
-            "endDate":"11-19-2013",
-            "responsibilities":[
-                "I did things here",
-                "Wow I did another thing!",
-                "Another epic thing which is also reall"
-            ]
         }
     ],
     "projects" :[
@@ -46,13 +34,19 @@
             "target":"_self"
         },
         {
-            "name":"Resume Website",
+            "name":"XPBD Physics with Quadtree",
             "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
             "repoLink":"/project/project3",
             "target":"_self"
         },
         {
-            "name":"XPBD Physics with Quadtree",
+            "name":"JUnit and Project Mangement",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
+            "repoLink":"/project/project3",
+            "target":"_self"
+        },
+        {
+            "name":"Resume Website",
             "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
             "repoLink":"/project/project3",
             "target":"_self"

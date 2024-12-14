@@ -12,7 +12,6 @@ WORKDIR /
 COPY --from=build-stage /entrypoint /entrypoint
 COPY --from=build-stage /app/data /data
 COPY --from=build-stage /app/static /static
-COPY --from=build-stage /app/project.html /project.html
 EXPOSE 8080
 USER nonroot:nonroot
 ENTRYPOINT ["/entrypoint"]
