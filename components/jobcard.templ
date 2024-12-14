@@ -1,0 +1,23 @@
+package components
+
+import "resume/main/models"
+
+templ JobCard(job models.Job) {
+    <div class="container">
+        <img src="/static/sundevil.png" alt="ASU Logo">
+        <div>
+            <h3>{job.Name}</h3>
+            <h4>{job.Position}</h4>
+            if job.EndDate == "Current" {
+                <p class="p2">Start Date: {job.StartDate}, Current</p>
+            } else {
+                <p class="p2"> Start Date: {job.StartDate} End Date: {job.EndDate}</p>
+            }
+            <ul>
+                for _, r := range job.Responsibilities {
+                    <li>{r}</li>
+                }
+            </ul>
+        </div>
+    </div> 
+}

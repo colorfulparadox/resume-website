@@ -8,44 +8,51 @@
     ],
     "jobs": [
         {
-            "logo":"",
-            "name":"",
-            "position":"",
-            "startDate":"",
-            "endDate":"",
+            "logo":"/static/sundevil.png",
+            "name":"Company Name",
+            "position":"Software Job",
+            "startDate":"12-30-2009",
+            "endDate":"Current",
             "responsibilities":[
                 "I did things here",
-                "Wow I did another thing!"
+                "Wow I did another thing!",
+                "Another epic thing which is also really long but here we go! THIS IS VERY LONG"
+            ]
+        },
+        {
+            "logo":"/static/sundevil.png",
+            "name":"Company Name",
+            "position":"Software Job",
+            "startDate":"12-30-2009",
+            "endDate":"11-19-2013",
+            "responsibilities":[
+                "I did things here",
+                "Wow I did another thing!",
+                "Another epic thing which is also reall"
             ]
         }
     ],
     "projects" :[
         {
-            "name":"Math Compiler",
-            "desc":"This project reads in input and then analyzes then compiles it to solve the math equations in the input.",
-            "repoLink":"https://github.com/colorfulparadox/Compiler",
-            "target":"_blank"
+            "name":"Math Interpreter",
+            "desc":"This project takes in input and solves math equations",
+            "repoLink":"/project/math-interpreter",
+            "target":"_self"
         },
         {
-            "name":"Project Name 2",
+            "name":"AI-Employee Training Backend / Frontend",
             "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
             "repoLink":"/project/project3",
             "target":"_self"
         },
         {
-            "name":"Project Name 3",
+            "name":"Resume Website",
             "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
             "repoLink":"/project/project3",
             "target":"_self"
         },
         {
-            "name":"Project Name 4",
-            "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
-            "repoLink":"/project/project3",
-            "target":"_self"
-        },
-        {
-            "name":"Project Name 5",
+            "name":"XPBD Physics with Quadtree",
             "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna elit, vehicula nec consequat sed, porta id quam.",
             "repoLink":"/project/project3",
             "target":"_self"

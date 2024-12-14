@@ -31,7 +31,17 @@ func MainContent(content models.MainContent) templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<div class=\"main-content\"><div class=\"education\"><h2>Education</h2><div class=\"container\"><img src=\"/static/sundevil.png\" alt=\"ASU Logo\"><div><h3>Arizona State University</h3><p>Bachelor of Computer Science</p></div></div></div><!-- Jobs --><div class=\"education\"><h2>Experience</h2><div class=\"container\"><img src=\"/static/sundevil.png\" alt=\"ASU Logo\"><div><h3>Company Name</h3><p>Job Title Here</p><ul><li>I did this</li><li>I did this and this</li><li>Also this was important to!</li></ul></div></div></div><div class=\"portfolio\"><h2>Portfolio</h2>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<div class=\"education\"><h2>Education</h2><div class=\"container\"><img src=\"/static/sundevil.png\" alt=\"ASU Logo\"><div><h3>Arizona State University</h3><h4>Bachelor of Computer Science</h4></div></div></div><!-- Jobs --><div class=\"education\"><h2>Experience</h2>")
+		if templ_7745c5c3_Err != nil {
+			return templ_7745c5c3_Err
+		}
+		for _, job := range content.Jobs {
+			templ_7745c5c3_Err = JobCard(job).Render(ctx, templ_7745c5c3_Buffer)
+			if templ_7745c5c3_Err != nil {
+				return templ_7745c5c3_Err
+			}
+		}
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</div><div class=\"portfolio\"><h2>Portfolio</h2>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
@@ -41,7 +51,7 @@ func MainContent(content models.MainContent) templ.Component {
 				return templ_7745c5c3_Err
 			}
 		}
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</div></div>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("</div>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
