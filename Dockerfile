@@ -15,6 +15,7 @@ COPY --from=build-stage /app/data /data
 COPY --from=build-stage /app/static /static
 EXPOSE 8081
 ENTRYPOINT ["/entrypoint"]
+CMD ["-p", "8081"]
 
 # build cmd: docker build -t counter-basic:latest .
 # run cmd:   docker run -p 8081:8081 counter-basic:latest

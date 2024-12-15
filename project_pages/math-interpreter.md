@@ -1,6 +1,6 @@
 # Math Interpreter
 
-<a href="https://github.com/colorfulparadox/Custom-Math-Interpreter" target="_blank">Github Repository</a>
+To view the Github Repository <a href=https://github.com/colorfulparadox/Custom-Math-Interpreter target=_blank>click here</a>
 
 
 An interpreter reads input and executes instructions without converting it into ASM or intermediate machine code.

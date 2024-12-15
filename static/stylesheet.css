@@ -99,6 +99,14 @@ body {
     margin-bottom: 20px;
 }
 
+.main-content a {
+    color: #5cbdfd;
+}
+
+.main-content a:visited {
+    color: #e371fa
+}
+
 .education {
     margin-bottom: 25px;
 }
@@ -116,15 +124,24 @@ body {
     display: flex;
     align-items: center;
     margin: 0;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .education img {
-    height: 80px;
-    margin-right: 10px;
+    height: 75px;
+    margin-right: 3px;
     object-fit: scale-down;
     flex-shrink: 0;
 }
+
+.work-logo {
+    height: 100px;
+    width: 120px;
+    margin-right: 3px;
+    object-fit: scale-down;
+    flex-shrink: 0;
+}
+
 
 .education h4 {
     margin: 2px 0 0;
@@ -177,7 +194,7 @@ body {
     outline: solid 3.2px #51acfc;
     transform: translateY(-5px); 
     box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.75); 
-    cursor: pointer;
+    /*cursor: pointer;*/
   }
 
 .project-card h3 {
@@ -191,13 +208,14 @@ body {
     line-height: 1.6;
 }
 
-.project-card a {
+.portfolio a {
     color: inherit;
     text-decoration: none; 
 }
 
-.project-card a:visited {
-    color: #ffffff
+.portfolio a:visited {
+    color: inherit;
+    text-decoration: none; 
 }
 
 .go-back {
@@ -208,16 +226,8 @@ body {
     background-color: #121212;
 }
 
-.go-back a {
-    color: #51b8fc;
-}
-
 .go-back h3:hover {
     transform: translateX(3px); 
-}
-
-.go-back a:visited {
-    color: #e167fa
 }
 
 @keyframes slideInLeft {

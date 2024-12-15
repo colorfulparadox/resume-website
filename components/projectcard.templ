@@ -3,10 +3,10 @@ package components
 import "resume/main/models"
 
 templ ProjectCard(project models.Project) {
-    <div class="project-card">  
-        <a href={templ.URL(project.RepoLink)} target={project.Target} class="link-icon">                  
-            <h3>{project.Name}</h3>
-            <p>{project.Desc}</p>
-        </a>
-    </div>
+    <a href={templ.URL(project.RepoLink)} target={project.Target}>  
+        <div class="project-card">  
+                <h3>{project.Name}</h3>
+                <p>{project.Desc}</p>
+        </div>
+    </a>
 }

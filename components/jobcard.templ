@@ -4,11 +4,11 @@ import "resume/main/models"
 
 templ JobCard(job models.Job) {
     <div class="container">
-        <img src="/static/sundevil.png" alt="ASU Logo">
+        <img class="work-logo" src={job.Logo} alt="ASU Logo">
         <div>
             <h3>{job.Name}</h3>
             <h4>{job.Position}</h4>
-            if job.EndDate == "Current" {
+            if job.EndDate == "" {
                 <p class="p2">Start Date: {job.StartDate}, Current</p>
             } else {
                 <p class="p2"> Start Date: {job.StartDate} End Date: {job.EndDate}</p>

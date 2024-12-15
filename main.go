@@ -48,14 +48,14 @@ func loadMarkDownFile(path string) string {
 	if err != nil {
 		fmt.Println("Failed to read MD file")
 		fmt.Println(err)
-		return "<h1>404</h1>"
+		return "<h1>Failed to read MD file</h1>"
 	}
 
 	var buf bytes.Buffer
 	if err = markdown.Convert([]byte(file), &buf); err != nil {
 		fmt.Println("Error Turning MD to html")
 		fmt.Println(err)
-		return "<h1>404</h1>"
+		return "<h1>Markdown file was unable to be converted into HTML</h1>"
 	}
 
 	return buf.String()
