@@ -11,7 +11,7 @@
             "logo": "/static/fairmont-logo.png",
             "name": "Fairmont Hotel ASU Sponsorship",
             "position":"Developer",
-            "startDate":"08-24-2024",
+            "startDate":"Augest, 2024",
             "endDate":"",
             "responsibilities":[
                 "Worked in a team that conducted sprints every 2 weeks to deliver new feature.",
@@ -19,6 +19,18 @@
                 "Backend interacted with a PostgreSQL database to store user infomation.",
                 "Worked on Frontend login page features. Used React, ReactRouterDom, and Bootstrap.",
                 "Sponsored by Michael Ortiz"
+            ]
+        },
+        {
+            "logo": "/static/sonar-logo.png",
+            "name": "Sonar Studios",
+            "position":"Intern - Dragon Adventures",
+            "startDate":"Augest, 2020",
+            "endDate":"May, 2021",
+            "responsibilities":[
+                "Worked on Holiday events which included programming, and collaboration with other departments.",
+                "Developed Biome transtition feature.",
+                "Developed home-island placement and user to islands and to the hub-island."
             ]
         }
     ],
@@ -31,13 +43,13 @@
         },
         {
             "name":"Math Interpreter",
-            "desc":"This project takes in input, analyzes, parsers, and excutues math equations.",
+            "desc":"This project takes in input, analyzes, parses, stores variables, and excutues math equations.",
             "repoLink":"/project/math-interpreter",
             "target":"_self"
         },
         {
             "name":"Resume Website",
-            "desc":"A writeup explaining how I made this website.",
+            "desc":"A writeup explaining how I made this website with Go-lang and templating.",
             "repoLink":"/project/resume-website",
             "target":"_self"
         }

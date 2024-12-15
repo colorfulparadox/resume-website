@@ -29,7 +29,7 @@ output -> print(var-access|expr)
 
 To begin developing an interpreter I first needed to write a Lexical Analyzer. A Lexical Analyzer takes in my input and then tokenizes and creates lexemes. From here we can dive into the parser. Currently, my parser could use some work. It currently does syntax, semantic, and code generation. Normally the parser does syntax and then after you would do semantic checking along with code generation. I wish to refactor these functions eventually.
 
-The other big part of this project was implementing operator precedence. Operator precedence is externally making sure that the order of operations is correctly followed.
+The other big part of this project was implementing operator precedence. Operator precedence is essentially making sure that the order of operations is correctly followed.
 
 Another smaller implementation detail is that I used C++ to develop this. I also use Make to compile the project. I followed OOP principles such as polymorphism and composition to build out larger objects.
 
