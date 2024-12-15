@@ -27,7 +27,7 @@ output -> print(var-access|expr)
 
 ## Implementations and Examples
 
-To begin developing an interpreter I first needed to write a Lexical Analyzer. A Lexical Analyzer takes in my input and then tokenizes and creates lexemes. From here we can dive into the parser. Currently, my parser could use some work. It currently does syntax, semantic, and code generation. Normally the parser does syntax and then after you would do semantic checking along with code generation. I wish to refactor these functions eventually.
+To begin developing an interpreter I first needed to write a Lexical Analyzer. A Lexical Analyzer takes in my input and then tokenizes and creates lexemes. From here we can dive into the parser. Currently, my parser could use some work. It currently does syntax, semantics, and code generation. Normally the parser does syntax and then after you would do semantic checking along with code generation. I wish to refactor these functions eventually.
 
 The other big part of this project was implementing operator precedence. Operator precedence is essentially making sure that the order of operations is correctly followed.
 

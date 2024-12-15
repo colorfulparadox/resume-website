@@ -14,11 +14,11 @@
             "startDate":"Augest, 2024",
             "endDate":"",
             "responsibilities":[
-                "Worked in a team that conducted sprints every 2 weeks to deliver new feature.",
+                "Worked in a team that conducted sprints every 2 weeks to deliver new features.",
                 "Developed a Backend API endpoint in Go-lang to handle RESTful API requests.",
-                "Backend interacted with a PostgreSQL database to store user infomation.",
-                "Worked on Frontend login page features. Used React, ReactRouterDom, and Bootstrap.",
-                "Sponsored by Michael Ortiz"
+                "Worked with a PostgreSQL database to store user infomation.",
+                "Developed a Frontend login page features. Used React, ReactRouterDom, and Bootstrap.",
+                "Project was sponsored by Michael Ortiz"
             ]
         },
         {
@@ -30,7 +30,7 @@
             "responsibilities":[
                 "Worked on Holiday events which included programming, and collaboration with other departments.",
                 "Developed Biome transtition feature.",
-                "Developed home-island placement and user to islands and to the hub-island."
+                "Developed home-island placement and user teleportation to islands and to the hub-island."
             ]
         }
     ],
