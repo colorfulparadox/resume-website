@@ -12,7 +12,7 @@ body {
 }
 
 .sidebar {
-    width: 22%;
+    width: 23.5%;
     background-color: #1a1a1a;
     display: flex;
     flex-direction: column;
@@ -66,6 +66,7 @@ body {
 }
 
 .sidebar .link-section-list {
+    padding-left: 1%;
     margin-left: 0px;
     display: flex;
     align-items: flex-start; 
@@ -230,15 +231,6 @@ body {
     transform: translateX(3px); 
 }
 
-@keyframes slideInLeft {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(0);
-    }
-  }
-
   @keyframes fadeInRight {
     from {
       opacity: 0;
@@ -274,8 +266,18 @@ body {
         padding-left: 3%;
         padding-right: 10%;
         */
-        height: 90vh;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+
+        height: 85vh;
         box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.35);
+    }
+
+    .sidebar .profile {
+        margin-top: 6%;
+        width: 130px;
+        height: 130px;
+        margin-bottom: 5px;
     }
 
     .main-content {
@@ -301,8 +303,8 @@ body {
     .sidebar {
         width: 35%;
         padding-top:1%;
-        padding-left:1.2%;
-        padding-right:1.2%;
+        padding-left:1%;
+        padding-right:1%;
         position: fixed;
         height: 100%;
         box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.35);
@@ -317,21 +319,28 @@ body {
     }
 
     .sidebar .about {
+        padding: 0px;
+        margin-top: 0px;
         margin-bottom: 0px;
         font-size: 12px;
-        line-height: 1.4;
+        line-height: 1.2;
         text-align: left;
         width: 100%;
     }
 
+    .sidebar h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
     .sidebar h2 {
-        font-size: 14px;
+        font-size: 12px;
         margin: 0px 0 0px;
         color: #888888;
     }
 
     .link-section-icon {
-        width: 30px; 
+        width: 25px; 
         height: auto;
     }
 
