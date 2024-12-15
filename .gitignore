@@ -1,3 +1,5 @@
 /.old
 ./index.html
-./main
+main
+.github
+.DS_Store
